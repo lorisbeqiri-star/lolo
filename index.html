@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Besi Transport</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+     
+<header>
+    <nav class="navbar">
+        <h2 class="logo">Besi Transport</h2>
+
+        <ul class="nav-menu">
+            <li><a href="#home" data-sq="Kreu" data-en="Home">Kreu</a></li>
+            <li><a href="#about" data-sq="Rreth Nesh" data-en="About">Rreth Nesh</a></li>
+            <li><a href="#services" data-sq="Sherbime" data-en="Services">Sherbime</a></li>
+            <li><a href="#contact" data-sq="Kontakt" data-en="Contact">Kontakt</a></li>
+        </ul>
+
+ <div class="language-switch">
+            <button onclick="setLanguage('sq')">🇦🇱 SQ</button>
+            <button onclick="setLanguage('en')">🇬🇧 EN</button>
+        </div>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1 data-sq="Sherbimi me i mire me vinc" data-en="The Best Crane Service">
+            Sherbimi me i mire me vinc
+        </h1>
+
+        <p data-sq="Ne ofrojme ngritje dhe transport profesional 24/7. Cilesi, korrektesi dhe pune e sigurt." data-en="We provide professional lifting and transport services 24/7. Quality, reliability and safe work.">
+            Ne ofrojme ngritje dhe transport profesional 24/7. Cilesi, korrektesi dhe pune e sigurt.
+        </p>
+
+        <a href="https://sensational-empanada-707f05.netlify.app/#contact" class="btn" data-sq="Na Kontakto" data-en="Contact Us">
+           Na Kontakto
+        </a>
+    </div>
+
+    <div class="hero-img">
+        <img src="foto2.jpg.jpg" alt="Crane">
+    </div>
+</section>
+
+<section class="about" id="about">
+    <h2 data-sq="Rreth Nesh" data-en="About Us">Rreth Nesh</h2>
+    <p data-sq="Ne jemi nje kompani qe punojme me perkushtim dhe seriozitet. Qellimi yne eshte te ndihmojme klientet tane me sherbim te shpejte dhe te sigurt." data-en="We are a company that works with dedication and professionalism. Our goal is to help our clients with fast and safe service.">
+       Ne jemi nje kompani qe punojme me perkushtim dhe seriozitet. Qellimi yne eshte te ndihmojme klientet tane me sherbim te shpejte dhe te sigurt.
+    </p>
+</section>
+
+<section class="services" id="services">
+    <h2 data-sq="Sherbimet Tona" data-en="Our Services">Sherbimet Tona</h2>
+
+    <div class="service-box">
+        <i class="fas fa-truck"></i>
+        <h3 data-sq="Transport" data-en="Transport">Transport</h3>
+        <p data-sq="Transport materialesh dhe inertesh." data-en="Transport of materials and construction waste.">
+           Transport materialesh dhe inertesh.
+        </p>
+    </div>
+
+    <div class="service-box">
+        <i class="fas fa-building"></i>
+        <h3 data-sq="Punime me Vinc" data-en="Crane Work">Punime me Vinc</h3>
+        <p data-sq="Ngritje te sigurta per cdo lloj ngarkese." data-en="Safe lifting for all types of loads.">
+           Ngritje te sigurta per cdo lloj ngarkese.
+        </p>
+    </div>
+</section>
+
+
+
+
+
+<script>
+function setLanguage(lang) {
+    const elements = document.querySelectorAll("[data-sq]");
+    elements.forEach(el => {
+        el.textContent = el.getAttribute("data-" + lang);
+    });
+}
+</script>
+
+
+
+
+<section class="gallery" id="gallery">
+    <h2 data-sq="Galeria Jone" data-en="Our Gallery">
+        Galeria Jone
+    </h2>
+
+    <div class="gallery-container">
+
+        <img src="foto1 (2).jpg" alt="Besi Transport">
+
+        <img src="foto.jpg" alt="Besi Transport">
+
+        <img src="foto3.jpg.jpg" alt="Besi Transport">
+
+    </div>
+</section>
+
+
+
+
+
+
+<section class="contact" id="contact">
+    <h2 data-sq="Na Kontaktoni" data-en="Contact Us">Na Kontaktoni</h2>
+
+    <div class="contact-info">
+        <p><i class="fas fa-phone"></i> +355 68 235 8928</p>
+        <p><i class="fas fa-envelope"></i> besitransport@email.com</p>
+        <p><i class="fas fa-location-dot"></i> Babrru, Tirane</p>
+    </div>
+
+    <form action="https://formsubmit.co/BESI_TRANSPORT_EMAILIN_TEND" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Emri juaj" required="" fdprocessedid="z6x4vk">
+        <input type="email" name="email" placeholder="Email juaj" required="" fdprocessedid="ka3m4a">
+        <textarea name="message" placeholder="Pse po na kontaktoni?" required=""></textarea>
+
+        <button type="submit" fdprocessedid="56nsef">Dergo Mesazhin</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Besi Transport | Babrru, Tirane | +355 68 235 8928</p>
+</footer>
+
+<script>
+function setLanguage(lang) {
+    const elements = document.querySelectorAll("[data-sq]");
+    elements.forEach(el => {
+        el.textContent = el.getAttribute("data-" + lang);
+    });
+}
+</script>
+
+
+
+</section><span id="PING_IFRAME_FORM_DETECTION" style="display: none;"></span></body></html>
